@@ -1,4 +1,5 @@
 import sqlite3
+#cos
 
 with sqlite3.connect('customers.db') as conn:
     cursor = conn.cursor()
